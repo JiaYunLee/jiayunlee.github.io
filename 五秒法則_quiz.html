@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Quiz</title>
+	<style>
+		body{
+			width : 544px;
+			margin: 0 auto;
+		}
+		p{
+			font-size: 16px;
+			line-height: 168%;
+			margin-top: 5px;
+			margin-bottom: 20px;
+		}
+		h2{
+			font-size: 33px;
+			margin-top: 50px;
+			margin-bottom: 15px;
+		}
+		h1{
+			font-size: 42px;
+			text-align: center;
+			margin-top: 50px;
+		}
+		h3{
+			font-size: 20px;
+			margin-bottom: 15px;
+			margin-top: 35px;
+		}
+		ul{
+			font-size: 16px;
+			line-height: 168%;
+		}
+		hr{
+			margin-bottom: 30px;
+		}
+		label{
+			cursor: pointer;
+		}
+		input{
+			cursor: pointer;
+		}
+	</style>
+	<script language="javascript">
+		function showalert(){
+ 		   alert("Answer submitted");
+ 		   window.location.href="目錄.html";
+ 		 }
+	</script>
+</head>
+<body>
+	<h1>《五秒法則》TED最夯的高效行動法</h1>
+	<div id="quiz" style="margin-top: 50px;">
+		<h3 style="margin-top: 50px;">1. 蜥蜴腦是用來掌管什麼？</h3>
+		<input type="radio" name="q1" value="理性思考" id="q11"> <label for="q11">理性思考</label>
+		<input type="radio" name="q1" value="理性思考" id="q12"> <label for="q12">邏輯思考</label>
+		<input type="radio" name="q1" value="理性思考" id="q13"> <label for="q13">本能思考</label>
+		<hr style="margin:20px 0; visibility: hidden;">
+		<h3>2. 作者是受到什麼影片而產生五秒法則的影響？</h3>
+		<input type="radio" name="q2" value="理性思考" id="q21"> <label for="q21">火箭影片</label>
+		<input type="radio" name="q2" value="理性思考" id="q22"> <label for="q22">火車影片</label>
+		<input type="radio" name="q2" value="理性思考" id="q23"> <label for="q23">火災影片</label>
+		<hr style="margin:20px 0; visibility: hidden;">
+		<h3>3. 作者在實踐五秒法則前，人生遇到的困境不包含下列何者？</h3>
+		<input type="radio" name="q3" value="理性思考" id="q31"> <label for="q31">失業</label>
+		<input type="radio" name="q3" value="理性思考" id="q32"> <label for="q32">喪子</label>
+		<input type="radio" name="q3" value="理性思考" id="q33"> <label for="q33">酗酒</label>
+		<input type="radio" name="q3" value="理性思考" id="q34"> <label for="q34">婚姻</label>
+		<hr style="margin:10px 0; visibility: hidden;">
+		<div style="margin: 40px auto; box-sizing: content-box; display: flex;">
+			<input type="button" onclick="showalert()" value="提交" style="background-color: #204180; color:white ; text-decoration: none; padding:15px 50px; font-size:16px; font-weight: bold; margin: 10px auto; text-align: center; border: none; cursor: pointer;">
+		</div>
+<!-- 		<div style="margin: 40px auto; box-sizing: content-box; display: flex;">
+			<a href="目錄.html" style="background-color: #f3f3f3; color:black ; text-decoration: none; padding:15px 35px; font-size:16px; font-weight: bold; margin: 10px auto; text-align: center; border: none; cursor: pointer;"> 回到目錄</a>
+		</div> -->
+	</div>
+</body>
+</html>
